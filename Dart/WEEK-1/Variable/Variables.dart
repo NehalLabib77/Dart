@@ -1,3 +1,5 @@
+late int later;
+
 void main() {
   //* Dart automatically detects the type
   //* Also called Implicit Type(Type inference) -- means Dart guesses the data type automatically.
@@ -45,4 +47,8 @@ void main() {
   print(k);
   print(num2.runtimeType);
   print(k.runtimeType);
+
+  //* late means declare now, initialize later.
+  later = 10;  //* late declared outside void main 
+  print(later);
 }
