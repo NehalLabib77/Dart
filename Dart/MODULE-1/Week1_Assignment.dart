@@ -48,7 +48,7 @@ void main() {
   //* 4. Create a nullable String variable and assign it a value. Print the length
   //*    of the variable. Use the null-aware operator to handle if the variable is null.
   String? nul = "notnull";
-  print(nul?.length ?? "Nehal");
+  print(nul.length ?? "Nehal");
 
   // ============================================================================
   //? SECTION 2: Operators

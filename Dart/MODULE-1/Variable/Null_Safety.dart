@@ -24,7 +24,7 @@ void main() {
 
   //* Null Assertion Operator --> "!" Used when sure it is not null otherwise program crashes 
   String? B = "Hello";
-  print(B!.length); 
+  print(B.length); 
 
   //* Exercise
   String? username;
